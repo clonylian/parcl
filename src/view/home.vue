@@ -3079,6 +3079,11 @@ let changetab = (str) => {
   color: #fefefe;
   text-decoration-line: underline;
 }
+@media (max-width: 1365px) {
+  .boxcthrbb {
+    width: 81rem;
+  }
+}
 @media (max-width: 1250px) {
   .boxleft {
     display: none;
@@ -3144,9 +3149,7 @@ let changetab = (str) => {
   .boxcthree {
     padding: 0;
   }
-  .boxcthrbb {
-    width: 81rem;
-  }
+
   .bftop {
     flex-direction: column;
   }
