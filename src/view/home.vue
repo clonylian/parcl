@@ -2301,6 +2301,7 @@ let changetab = (str) => {
   scrollbar-width: none;
   scroll-snap-type: x mandatory;
   overflow-x: scroll;
+  position: relative;
 }
 
 .boxccbc {
@@ -2311,9 +2312,10 @@ let changetab = (str) => {
   width: 121.875rem;
   height: 100%;
   transition: all 0.15s;
+  position: absolute;
 }
 .trabx {
-  transform: translateX(-145px);
+  right: -1.875rem;
 }
 .boxctab {
   display: flex;
