@@ -2302,6 +2302,7 @@ let changetab = (str) => {
   scroll-snap-type: x mandatory;
   overflow-x: scroll;
 }
+
 .boxccbc {
   display: flex;
   gap: 1.875rem;
